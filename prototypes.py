@@ -8,11 +8,11 @@ BASE_DIR = os.path.dirname(__file__)
 settings.configure(
     DEBUG=True,
     SECRET_KEY='!$e4$rpt8b5scg9!_^98h$zfht-d!o^&+0y8!2ikvn=jwh5^z)',
-    ROOT_URLCONF='sitebuilder.urls',
+    ROOT_URLCONF='bireli.urls',
     MIDDLEWARE_CLASSES=(),
     INSTALLED_APPS=(
         'django.contrib.staticfiles',
-        'sitebuilder',
+        'bireli',
     ),
     TEMPLATES=(
         {
